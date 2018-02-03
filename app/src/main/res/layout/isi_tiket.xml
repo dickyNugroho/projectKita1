@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:src="@drawable/gambar"
+                android:id="@+id/gbrposter" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="SEMNASTI"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:id="@+id/judul" />
+
+                <TextView
+                    android:text='"Rise Your Imagination with AR and VR"'
+                    android:textSize="5pt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subjudul" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_profile"
+                        android:tint="@color/black"
+                        android:id="@+id/imageView2" />
+
+                    <TextView
+                        android:text="HMTI - UDINUS"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="4dp"
+                        android:textSize="10dp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Instansi"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:text="40 /"
+                        android:layout_width="58dp"
+                        android:textSize="5pt"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/daftar"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:text="50 Org"
+                        android:layout_width="160dp"
+                        android:textSize="5pt"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/kuota"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:text="Rp.60.000,-"
+                        android:textSize="6pt"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/harga"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

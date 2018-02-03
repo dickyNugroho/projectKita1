@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">EventApp</string>
+    <string name="current_date">June, 2016</string>
+    <string name="add_event">ADD CALENDAR EVENT</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">30</string>
+    <string name="title_activity_tab_menu">tab_menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home_detailacara">home_detailacara</string>
+    <string name="title_activity_tiket_detailtiket">tiket_detailtiket</string>
+    <string name="title_activity_isi_jadwal">isi_jadwal</string>
+    <string name="APP_ID">1864690680410915</string>
+    <string name="generate_qr_round">Touch to generate a QR code (round device)</string>
+    <string name="generate_qr_square">Touch to generate a QR code (square device)</string>
+    <string name="string_to_encode">https://androidbycode.wordpress.com/</string>
+    <string name="encode_error">Unable to generate QR Code</string>
+    <string name="qr_image_description">QR Code Image</string>
+    <string-array name="bid_name">
+        <item>Pilih Bidang Acara</item>
+        <item>Teknik Informatika</item>
+        <item>Kedokteran</item>
+        <item>Ekonomi</item>
+    </string-array>
+
+    <string-array name="kota_name">
+        <item>Pilih Kota</item>
+        <item>Semarang</item>
+        <item>Solo</item>
+    </string-array>
+
+    <string-array name="prov_name">
+        <item>Pilih Provinsi</item>
+        <item>jawa tengah</item>
+        <item>jawa timur</item>
+    </string-array>
+
+    <string-array name="kategori_name">
+        <item>Pilih Kategori Acara</item>
+        <item>Seminar</item>
+        <item>workshop</item>
+        <item>Seminar Internasional</item>
+        <item>Competion</item>
+    </string-array>
+</resources>

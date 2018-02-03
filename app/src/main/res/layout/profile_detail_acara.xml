@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="SEMNASTI 2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="7pt"
+                android:textColor="@color/black"
+                android:id="@+id/det_judul" />
+
+            <TextView
+                android:text='"Rise Your Imagination With AR and VR"'
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/det_subjudul" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/ic_profile"
+                    android:id="@+id/img"
+                    android:tint="@color/red" />
+
+                <TextView
+                    android:text="HMTI-UDINUS"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/det_instansi"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="Rp. 60000 ,-"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/det_harga"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    app:srcCompat="@drawable/gambar"
+                    android:id="@+id/det_poster" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:padding="3dp"
+                android:elevation="2dp"
+                android:background="@color/white"
+                android:layout_height="157dp">
+
+                <TextView
+                    android:text="Deskripsi :"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/textView5"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="Seminar Nasional Teknik Informatika (SEMNASTI) adalah salah satu event tahunan terbesar yang diselenggarakan oleh Himpunan Mahasiswa Teknik Informatika (HMTI) Universitas Dian Nuswantoro Semarang. Dengan adanya SEMNASTI, diharapkan mahasiswa mampu mendapatkan informasi ter-update dari perkembangan Teknologi masa kini. Dan dapat menambah wawasan mahasiswa mengenai Teknologi. "
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="5pt"
+                    android:id="@+id/deskripsi"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

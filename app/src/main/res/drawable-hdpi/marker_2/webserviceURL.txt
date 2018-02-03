@@ -1,0 +1,12 @@
+package event.apps;
+
+/**
+ * Created by rejak on 3/22/2017.
+ */
+
+public class webserviceURL {
+    private static final String baseurl = "http://192.168.43.32/event_api/";
+
+    public static final String get_login = baseurl+"Login/get_login_id/";
+    public static final String register = baseurl + "Client/create_client";
+}

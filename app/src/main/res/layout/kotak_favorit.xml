@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:padding="5dp">
+
+        <TextView
+            android:text="SEMNASTI 2017"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/judul_kotak"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            app:srcCompat="@drawable/gambar"
+            android:id="@+id/gambar_kotak" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Kuota Sisa :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:text="10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sisa_kuota"
+                android:textColor="@color/red"
+                android:textSize="10pt"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_but_menu"
+                android:background="@color/white"
+                android:id="@+id/tombol" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

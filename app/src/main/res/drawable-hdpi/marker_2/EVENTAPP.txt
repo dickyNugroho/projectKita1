@@ -1,0 +1,29 @@
+Projek EVENTAPP
+
+Eventapp (version 1.0) 
+- web admin
+- web client
+- andro(dasar)
+
+Estimasi -47 SoftwareFair HMTI
+- 6 minggu 4 hari 
+
+- Meet seminggu min 2 kali
+
+- Minggu 1 (Belajar dasar android + analisis program)
+	*Meeting bahas progres 
+	*Ngobar (Ngoding bareng)
+- Minggu 2 (Belajar Crud android + Belajar web service website)
+	*Meeting bahas progres  
+	*Ngobar (Ngoding bareng)
+- Minggu 3 (Web jadi + fungsi + table) + (Interface android jadi)
+	*Meeting bahas progres 
+	*Ngobar (Ngoding bareng)
+- Minggu 4 
+	*Meeting bahas progres 
+	*Ngobar (Ngoding bareng)
+- Minggu 5
+	*Meeting bahas progres 
+	*Ngobar (Ngoding bareng)
+- Minggu 6 (Apps V.1 fix)
+- Minggu Akhir (Testing)

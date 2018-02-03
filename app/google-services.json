@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262158271623",
+    "project_id": "logineventapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262158271623:android:023ad7fd7f98e188",
+        "android_client_info": {
+          "package_name": "event.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262158271623-ucc6fahb579mlavjcv7s3dl09da52h2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "event.apps",
+            "certificate_hash": "d3f127df0b09dfe0f13e31c5d8544e6e19004fd4"
+          }
+        },
+        {
+          "client_id": "262158271623-32sh241e2rc3cg3f1l9pjg9d278ljv6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcMMZ8E19Dwf8GUZqCCbjlnhr9tkJiN2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

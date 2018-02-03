@@ -1,0 +1,26 @@
+ //getbody
+            JSONObject jbody= new JSONObject();
+            try{
+                jbody.put("id_user",idUser);
+                jbody.put("username",username);
+                jbody.put("email_user",email);
+                jbody.put("nm_user",name);
+                jbody.put("gmb_user",pictUrlUser);
+                jbody.put("no_hp",handphoneUser);
+
+            } catch (JSONException e){
+                e.printStackTrace();
+            }
+
+            ApiVolley request = new ApiVolley(context, jbody, "POST", webserviceURL.register, "", "", 0, new ApiVolley.VolleyCallback() {
+                @Override
+                public void onSuccess(String result) {
+                    JSONObject response;
+                    try {
+                        response = new JSONObject(result);
+                        String status = response.getJSONObject("metadata").getString("status");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }

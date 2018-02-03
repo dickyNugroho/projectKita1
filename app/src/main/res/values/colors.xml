@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal_01</color>
+    <color name="colorPrimaryDark">#FA3A3A</color>
+    <color name="colorAccent">#999999</color>
+
+
+    <color name="teal_01">#FF4081</color>
+    <color name="black">#000000</color>
+    <!-- Use with black text -->
+    <color name="white">#FFFFFF</color>
+    <!-- Use with black text -->
+    <color name="red">#ff0004</color>
+    <!-- Use with black text -->
+    <color name="hijaumuda">#9BCC63</color>
+    <!-- Use with black text -->
+    <color name="birumuda">#40A5F5</color>
+    <color name="birutua">#1C88E3</color>
+    <!-- Use with black text -->
+    <color name="oranye">#FEA724</color>
+    <!-- Use with white text -->
+    <color name="asli">#FA3A3A</color>
+    <!-- Use with white text -->
+    <color name="teal_700">#00796b</color>
+    <!-- Use with white text -->
+    <color name="teal_800">#00695c</color>
+    <!-- Use with white text -->
+    <color name="teal_900">#004d40</color>
+    <!-- Use with white text -->
+    <color name="teal_a100">#a7ffeb</color>
+    <!-- Use with black text -->
+    <color name="teal_a200">#64ffda</color>
+    <!-- Use with black text -->
+    <color name="teal_a400">#1de9b6</color>
+    <!-- Use with black text -->
+    <color name="teal_a700">#00bfa5</color>
+    <!-- Use with black text -->
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:padding="5dp"
+        android:id="@+id/warna">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/gambar"
+            android:id="@+id/gambar_kotak" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:id="@+id/judul"
+            android:text="Kategori 1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
